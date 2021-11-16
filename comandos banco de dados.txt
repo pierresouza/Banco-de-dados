@@ -1,0 +1,7 @@
+
+Comando para criar uma tabela:create table 'nome_da_tabela'( 'nome_do_campo' , 'tipo_do_campo' )heart 2
+
+[10:09] JOAO VICTOR OLIVEIRA ARRUDA
+Comando para inserir dados dentro de uma tabelainsert into 'nome_da_tabela'( 'campo1', 'campo2', 'campoN' ) values( 'valor_do_campo1', 'valor_do_campo2','valor_do_campoN')
+ heart 2
+

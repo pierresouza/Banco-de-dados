@@ -1,0 +1,100 @@
+FASES DE BANCO DE DADOS
+Aula 13/10/2021 - 19/10/2021 MySQL
+
+Dados, informação, conhecimento, inteligência, decisão, sabedoria; 
+
+Dados: São elementos sem relevância ou sem sentido para "um dos lados". Por exemplo: 
+Rua dos Andradas, nº35;
+Jhonny;
+Mesa;
+357.
+
+Informação: Pode ser um conjunto de dados (não obrigatório, mas na maioria das vezes é) que possuem ou geram relevância a uma determinada pessoa ou grupo de pessoas. Por exemplo:
+Celta azul está sendo multado (pertence a alguém);
+A palavra de um padre na missa (pra uns faz sentido, para outros não);
+Quando é para mim, deixa de ser "dado" e vira uma "informação". 
+
+Conhecimento: Vem através da interpretação das informações. Por exemplo:
+Quando passa a receber informações, você ganha conhecimento, como ver varias pessoas caindo em um buraco... Você não precisa cair também para saber que vai se machucar. 
+
+Inteligência: Capacidade de compreender, buscando alternativas pra solucionar um determinado problema (análise de problemas e possíveis soluções). Por exemplo:
+Ver o buraco e indicar para outras pessoas, irem pela calçada. 
+
+Decisão: É a ação. Quanto toma uma decisão, estará escolhendo uma das soluções criadas pela sua inteligência e agindo. 
+
+Sabedoria: Fazer uma análise em cima da sua ação e ponderar se ela vai ser (ou foi) a melhor saída. Seria o pós evento. 
+
+1: Modelagem;
+
+Modelagem de dados:
+Modelo Conceitual: Sempre o primeiro, é a primeira ideia;
+Modelo Lógico: Segundo, já possui algumas ferramentas para construir o processo conceitual;
+Modelo Físico: Sempre o terceiro, onde já temos o banco de dados pronto.
+
+   • 1.1 Entender o que é modelagem de dados;
+   (A modelagem serva para que o banco de dados sirva da maneira que você "precisa". Por conta do seu crescimento, chega um momento que a manutenção fica inviável, então a moldagem precisa ser muito bem pensada).
+   • 1.2 Entender o que é Banco de dados;
+   (Banco de dados é um conjunto de informações/dados organizadas (ou não) de forma estruturada, armazenadas em um computador).
+   • 1.3 Entender o que é SGBD;
+   (Sistema Gerenciador de Banco de Dados, é um software que roda em cima do sistema de pastas, determinando e definindo o banco de dados).
+   • 1.4 Entender o que é SGBDR;
+   (O "R" é a relação, Sistema Gerenciador de Banco de Dados Relacional, onde as entidades se relacionam).
+   • 1.5 Entender os tipos de Bancos de Dados existentes;
+   (Tipos: Relacional, Não relacional, Orientado a objetos, Banco de dados em Rede, Hierárquico, Documental, Entidade-relacionamento, Entidade-atributo-valor --- pesquisar mais).
+   • 1.6 Entender o que são Entidades;
+   (Entidades são como a "pasta principal" para um grupo de dados. Onde serão armazenados um conjunto, como por exemplo, na Entidade "Nome" serão depositados apenas os dados "Nome").
+
+Entidade Forte: Aquela que abrange atributos de outras entidades;
+Entidade Fraca: Aquela que é necessária, mas em relação as outras, se torna fraca (pode não estar presente/requisitada em outras entidades). 
+
+   • 1.7 Entender o que são Atributos; 
+   (São características. Como por exemplo - de uma pessoa - seria o CPF, Nome, Telefone, etc). 
+
+Tipos de atributo:
+Identificador: É o que separa um registro de outro, para que todos sejam únicos (ou usar ID). 
+Multivalorado: É como um telefone - celular, telefone residencial - , quando o atributo recebe muitos valores (requer quantidade de campos).
+Composto: É um atributo que recebe mais de uma característica. Por exemplo: endereço (rua, número, bairro, CEP, cidade, etc).
+Opcional: É um atributo não obrigatório. 
+
+Modalidades de atributo:
+Inteiro: BIGINT(  ) ou INTEGER(  )
+Caractere: VARCHAR(  )
+Real: DECIMAL(  )
+Gênero ou um caractere: CHAR(  )
+Data e Hora: DATETIME(  )
+Data e Hora reduzida: SMALLDATETIME(  )
+Espaço numérico (12): NUMERIC(  )
+
+   • 1.8 Entender o que são Relacionamentos.
+   (É o que se da entre as diversas seções de um banco de dados (cruzamento de entidades) como por exemplo: cliente, carro, etc.)
+
+Tipo de relacionamentos:
+* Unário
+* Binário
+* Ternário
+* Quaternário
+
+Cardinalidade: Grau/Nível de relação (que pode existir) entre duas entidades.
+0 = Nenhuma relação;
+1 = Uma relação;
+N = Mais de uma relação.
+
+Sempre analisar o contexto antes de iniciar a modelagem
+
+Possibilidade de cardinalidade (min.max): 
+(1.1) ou (0.1) ou (1.n) ou (0.n) 
+
+Locais que usam banco de dados: 
+Escola;
+Empresa de telemarketing;*
+(Neste caso, ela usa o próprio Banco de Dados).
+Hospital;
+Empresa de internet;
+Industria;
+Lojas de material de construção.
+ 
+LGPD (Lei Geral de proteção de dados). 
+
+2: Banco de dados Relacionais;
+
+3: Bando de dados não Relacionais.

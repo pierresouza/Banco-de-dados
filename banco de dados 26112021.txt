@@ -1,0 +1,12 @@
+Xamp:intermediário, identifica o sistema e especifíca qual caminho prosseguir.
+Apache
+Wamp: Windows, apache,mysql e php
+Lamp: Linux,apache,mysql e php
+Mamp: MacOs,apache,mysql e php 
+
+varchar = variável
+char = fixo
+
+Nome (VarChar(100)) espaço dentro do parenteses limita os caracteres
+
+sempre especificar o tamanho/valores dos caracteres no BD.

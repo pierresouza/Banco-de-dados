@@ -1,0 +1,26 @@
+Banco de Dados
+
+Dados == Informação
+
+Dados, informação, conhecimento, inteligência, Decisão, Sabedoria.
+
+Fase 1 - Modelagem.
+
+
+
+1.1 - Entender o que é Modelagem de Dados.
+1.2 - Entendr o que é um Banco de Dados.
+1.3 - Entender que é um SGBD.
+1.4 - Entender que é um SGBDR.
+1.5 - Entender os tipos de Banco de Dados existentes.
+1.6 - Entender o que é Entidades.
+1.7 - Entender o que é Atributos.
+1.8 - Entender o que é Relacionamentos.
+
+
+
+Fase 2 - Banco de Dados Relacionais.
+
+
+
+Fase 3 - Banco de dados não-Relacionais.
